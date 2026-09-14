@@ -1,0 +1,31 @@
+# Real bills used in ad-hoc testing — NEVER commit (contains personal data)
+scratch/
+real-bills/
+*.private.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Environment & secrets
+.env
+.env.*
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*~
+
+# Excel lock files
+~$*.xlsx
